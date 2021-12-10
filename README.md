@@ -1,10 +1,12 @@
-# Programming Language Suggester 
+# Pizza Parlor 
 
  By Tula Sabes 
 
- DATE 11/6/2021
+ DATE 12/10/2021
 
-#### Using Javascript and Jquery I created and interactive webpage. On this webpage I create d a Programming language survery that helps the user decide which programming language is best for them. This webpage consists of basic javascript functions. The objective of this project was to show my knowledge in the creation of questions and suggestions on my webpage using Javasript and JQuery. 
+#### Description 
+
+In this project we will allow the user to customize their pizza and our code will return the total cost of that pizza. 
 
 ## Technologies Used
 
@@ -14,14 +16,14 @@
 * Bootstrap 
 * JQuery 
 
-## Description
+## Specifications 
 
-In this project we reviewed how to create a programming sugggester for the user. This was a very intereactive project as there were many ways the user was able to provide their input and recvieve an output. In my code I utilized many javascript functions and arrays to provide a clear message that the user receivesd once they complete their survey. I used debugger to test this action. Overall this was a very challenging yet interesting project. 
+
 
 
 ## Setup/Installation Requirements
 
-* [My Programming Language Suggester! ](tulasabes.github.io/index)
+* [Tula's Pizza Parlor Project ](https://github.com/TulaSabes/pizza-parlor)
 * Download this repository to your computer by clicking the green Code button and 'Download Zip'
 * Or clone the repository
 
