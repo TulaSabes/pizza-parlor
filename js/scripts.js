@@ -1,16 +1,10 @@
 // Business Logic 
 
-//get pizza cost 
-
 const pizza = {
     size: ["small", "medium", "large"],
     toppings: ["mushrooms", "sausage", "onions", "peppers"]
 }
 
-//let pizza cost = {
-
-
-//}
 
 function setToppings(toppings, toppingsPrice=0.5){
     const cost = toppings.length*toppingsPrice
