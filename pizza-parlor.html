@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-  <meta charset="utf-8">
-  <Title>Pizza Parlor</Title>
+  <link href="css/bootstrap.min.css" rel="stylsheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tula's Poppin' Pizza</title>
 </head>
 <body>
-  <h1 class="header">Pizza Planet</h1>
-  <div id="pizzaprice"> 
-
+  <div class="welcome">
+    <h3>Tula's Poppin' Pizza!</h3>
+      <div id="start-order">
+        <button type="submit" class="btn-start-order">Start My Order</button>
   </div>
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
-
-</html>
+  <div class="pizza">
+    <p id="begin-order">My Pizza</p>
+    <form id="pizza-form">
+      <div class="form-group">
+        <label for="pizza-size">Pizza size</label>
+        <select class="form-control" id="pizza-size">
+          <option value="large">Large</option>
+          <option value="medium">Medium</option>
+          <option value="small">Small</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pizza-toppings">Pizza toppings (1+)</label>
+        <select class="form-control" multiple="multiple" id="toppings">
+          <option value="cheese ">cheese</option>
+          <option value="pepperoni ">pepperoni</option>
+          <option value="pineapple ">pineapple</option>
+          <option value="onions ">onions</option>
+          <option value="beyond meat sausage">Beyond Meat Sausage</option>
+          <option value="olives">olives</option>
+        </select>
+      </div>
